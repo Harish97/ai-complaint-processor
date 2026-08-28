@@ -92,6 +92,9 @@ python run.py               # uses LLM_PROVIDER from .env (default: openai)
 Full diagrams (Mermaid), layer table, data model, concurrency model and failure
 matrix: **[`docs/architecture.md`](docs/architecture.md)**.
 
+Also in `docs/`: the **[presentation](docs/AI-Complaint-Processor-Final-Evaluation.pptx)**
+(15 slides, with speaker notes) and a **[demo script](docs/demo-script.md)**.
+
 ### Why the workflow is split into three tasks
 
 One prompt returning everything would be cheaper, but it degrades on long
