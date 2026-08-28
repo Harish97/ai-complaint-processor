@@ -240,7 +240,9 @@ Regenerate them with `python scripts/generate_sample_data.py`.
 
 ## Sample output
 
-A full committed run is in **[`sample_output/`](sample_output/)**.
+A full committed run against **OpenAI `gpt-4o-mini`** is in
+**[`sample_output/`](sample_output/)** — 9 documents, 24 LLM calls, 29,050
+tokens, 11.26 s.
 
 ```
 output/
@@ -252,6 +254,8 @@ output/
 └── logs/run.log                           # full DEBUG audit trail
 ```
 
+All examples below are from a **real `gpt-4o-mini` run**, not the offline provider.
+
 **Console summary:**
 
 ```
@@ -259,23 +263,26 @@ output/
 ┏━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━┓
 ┃ Case ID       ┃ Type ┃ Status  ┃ Category       ┃ Priority ┃ Esc. ┃ Time (s) ┃
 ┡━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━┩
-│ complaint_001 │ txt  │ SUCCESS │ Billing        │   Low    │  No  │     0.00 │
-│ complaint_002 │ pdf  │ SUCCESS │ Delivery       │ Critical │ Yes  │     0.00 │
-│ complaint_003 │ docx │ SUCCESS │ Product Defect │  Medium  │  No  │     0.00 │
-│ complaint_004 │ txt  │ SUCCESS │ Account Access │  Medium  │  No  │     0.00 │
-│ complaint_005 │ pdf  │ SUCCESS │ Refund         │  Medium  │  No  │     0.00 │
-│ complaint_006 │  md  │ SUCCESS │ General Enq.   │   Low    │  No  │     0.00 │
-│ complaint_007 │ txt  │ SUCCESS │ Technical Iss. │ Critical │ Yes  │     0.00 │
-│ complaint_008 │ docx │ SUCCESS │ Service Qual.  │   Low    │  No  │     0.00 │
+│ complaint_001 │ txt  │ SUCCESS │ Billing        │  Medium  │  No  │     5.06 │
+│ complaint_002 │ pdf  │ SUCCESS │ Delivery       │   High   │ Yes  │     6.21 │
+│ complaint_003 │ docx │ SUCCESS │ Product Defect │  Medium  │  No  │     4.63 │
+│ complaint_004 │ txt  │ SUCCESS │ Account Access │   High   │  No  │     4.62 │
+│ complaint_005 │ pdf  │ SUCCESS │ Refund         │   High   │  No  │     5.33 │
+│ complaint_006 │  md  │ SUCCESS │ General Enq.   │   Low    │  No  │     5.17 │
+│ complaint_007 │ txt  │ SUCCESS │ Technical Iss. │   High   │ Yes  │     5.34 │
+│ complaint_008 │ docx │ SUCCESS │ Service Qual.  │  Medium  │  No  │     5.93 │
 │ edge_case_..  │ txt  │ FAILED  │ —              │    —     │  —   │     0.00 │
 └───────────────┴──────┴─────────┴────────────────┴──────────┴──────┴──────────┘
 
-Documents: 9   8 succeeded   0 partial   1 failed   Wall clock: 0.20s
+Provider: openai (gpt-4o-mini)   Task mode: parallel   Workers: 4
+Documents: 9   8 succeeded   0 partial   1 failed   Wall clock: 11.26s
+LLM calls: 24   Tokens: 29,050 (25,471 in / 3,579 out)
 Skipped (unsupported format): edge_case_unsupported_format.xlsx
 ```
 
-**Structured extraction** (`complaint_007.json` — the document with no contact
-details, showing that missing values become real nulls rather than invented text):
+**Structured extraction** (`complaint_007.json` — the web-form submission with no
+contact details, showing that missing values become real nulls rather than
+invented text):
 
 ```json
 {
@@ -285,45 +292,55 @@ details, showing that missing values become real nulls rather than invented text
     "customer_name": null,
     "email": null,
     "phone_number": null,
+    "product_or_service": "mobile app",
     "complaint_category": "Technical Issue",
-    "issue_description": "Your mobile app has crashed every single time I try to open the reports tab since the update last Tuesday...",
+    "issue_description": "The mobile app crashes every time the customer tries to open the reports tab since the last update...",
     "resolution_provided": null,
     "is_complaint": true,
     "escalation_required": true,
     "supporting_document_available": true,
     "overall_case_status": "Escalated",
-    "priority": "Critical",
-    "customer_sentiment": "Very Negative"
+    "priority": "High",
+    "customer_sentiment": "Very Negative",
+    "extraction_notes": "Contact details were not provided in the web form submission."
   }
 }
 ```
 
-**Generated customer email** (`complaint_001.txt`):
+**Generated customer email** (`complaint_002.txt` — the angry, escalated delivery
+case). Note that it cites the real ticket IDs from the source document and does
+**not** invent a resolution, because the document records none:
 
 ```
-Subject: Your billing case — Resolved
+Subject: Update on Your Delivery Complaint for Order ORD-77821
 
-Dear Priya Sharma,
+Dear Rahul Verma,
 
-Thank you for contacting us about Prime Home Broadband — 300 Mbps plan. I am
-sorry for the inconvenience this has caused...
+I understand that you are experiencing significant frustration regarding your
+order ORD-77821, which was promised for delivery on 6 March but has not yet
+arrived as of 18 March. The tracking information has indicated 'out for
+dispatch' for eleven days, and you have not received any updates despite your
+previous inquiries.
 
-Here is what has been done so far. A refund of Rs. 1,499 was approved on
-10 March and processed to the original payment method.
+I want to assure you that your case is currently being worked on and has been
+escalated for further review. We recognize the urgency of this matter,
+especially given your previous attempts to resolve it through tickets TKT-4411
+and TKT-4622.
 
-The current status of your case is: Resolved...
+We appreciate your patience as we look into this issue, and we will keep you
+updated on any developments as soon as possible.
 
 Kind regards,
 Customer Support Team
 ```
 
-**Internal case summary** (`complaint_002.md`):
+**Internal case summary** (`complaint_002.md`) — same case, different audience:
 
 ```
 Case Overview  — Delivery complaint raised by Rahul Verma regarding order ORD-77821.
 Key Issue      — Third contact about an Express order promised for 6 March...
 Action Taken   — No action recorded.
-Current Status — Escalated. Priority Critical; customer sentiment very negative.
+Current Status — Escalated. Priority High; customer sentiment very negative.
 Next Action    — Assign to a senior specialist and make contact within 24 hours.
 ```
 

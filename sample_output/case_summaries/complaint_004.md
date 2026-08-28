@@ -2,16 +2,16 @@
 
 **Source file:** complaint_004.txt  
 **Category:** Account Access  
-**Priority:** Medium  
+**Priority:** High  
 **Escalation required:** No  
 
 Case Overview
 -------------
-Account Access complaint raised by Daniel Okonkwo regarding MyAccount customer portal.
+Customer Daniel Okonkwo is experiencing login issues with the MyAccount customer portal.
 
 Key Issue
 ---------
-I cannot log in to my account. Every time I enter my password the page reloads and says 'access denied'. I have tried resetting the password twice and I never receive the OTP on email. I need access because my renewal is due on 30 March.
+Customer cannot log in due to an 'access denied' message and has not received OTP for password reset.
 
 Action Taken
 ------------
@@ -19,8 +19,8 @@ No action recorded.
 
 Current Status
 --------------
-Open. Priority Medium; customer sentiment neutral.
+Case is open with high priority; no escalation required.
 
 Recommended Next Action
 -----------------------
-Investigate the reported issue and send the customer an initial response with an expected timeline.
+Investigate the failure of password reset emails for this account.

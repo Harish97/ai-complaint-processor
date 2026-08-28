@@ -2,25 +2,25 @@
 
 **Source file:** complaint_005.pdf  
 **Category:** Refund  
-**Priority:** Medium  
+**Priority:** High  
 **Escalation required:** No  
 
 Case Overview
 -------------
-Refund complaint raised by Meera Krishnan regarding Annual Subscription — Studio Pro.
+Customer Meera Krishnan has filed a complaint regarding a pending refund for her cancelled Studio Pro subscription.
 
 Key Issue
 ---------
-I cancelled my Studio Pro subscription within the 14-day cooling off period on 11 March, but I have still not received my refund of Rs. 8,999. Your policy page says refunds are processed in 7 working days. It has been two weeks. I would like my money back please.
+Refund of Rs. 8,999 is pending approval despite cancellation within the cooling off period.
 
 Action Taken
 ------------
-Finance team has been asked to prioritise the refund. The customer has been told the refund is under review and will be confirmed once approved.
+Finance team has been asked to prioritise the refund.
 
 Current Status
 --------------
-In Progress. Priority Medium; customer sentiment neutral.
+In Progress, High priority, no escalation required.
 
 Recommended Next Action
 -----------------------
-Chase the owning team for completion and update the customer on progress.
+Follow up with the finance team to expedite the approval of the refund.

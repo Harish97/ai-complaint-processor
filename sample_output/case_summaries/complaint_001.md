@@ -2,25 +2,25 @@
 
 **Source file:** complaint_001.txt  
 **Category:** Billing  
-**Priority:** Low  
+**Priority:** Medium  
 **Escalation required:** No  
 
 Case Overview
 -------------
-Billing complaint raised by Priya Sharma regarding Prime Home Broadband — 300 Mbps plan.
+The case involves a billing complaint from Priya Sharma regarding duplicate charges for February. The issue was confirmed by the billing team, and a resolution has been provided.
 
 Key Issue
 ---------
-I was billed twice for the month of February. My account shows two charges of Rs. 1,499 taken on 3 February and 5 February. I only have one active connection and one active plan. I have attached copies of both invoices and my bank statement showing the duplicate debit.
+Duplicate billing for February with two charges of Rs. 1,499.
 
 Action Taken
 ------------
-A refund of Rs. 1,499 was approved on 10 March and processed to the original payment method. The customer was informed that it will reflect within 5 to 7 working days.
+A refund of Rs. 1,499 was approved and processed on 10 March.
 
 Current Status
 --------------
-Resolved. Priority Low; customer sentiment neutral.
+Resolved, Medium priority, no escalation required.
 
 Recommended Next Action
 -----------------------
-Confirm the customer is satisfied, then close the case.
+Confirm with the customer that the refund has been received and the issue is fully resolved.

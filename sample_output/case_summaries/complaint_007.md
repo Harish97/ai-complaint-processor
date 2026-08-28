@@ -2,16 +2,16 @@
 
 **Source file:** complaint_007.txt  
 **Category:** Technical Issue  
-**Priority:** Critical  
+**Priority:** High  
 **Escalation required:** Yes  
 
 Case Overview
 -------------
-Technical Issue complaint raised by Customer regarding the reported item.
+The case involves a technical issue with the mobile app crashing when accessing the reports tab after a recent update. The customer is unable to access critical sales data, impacting their business operations.
 
 Key Issue
 ---------
-Your mobile app has crashed every single time I try to open the reports tab since the update last Tuesday. I get a blank screen and then it closes. I have reinstalled twice. I run a small business and I cannot access my own sales data. This is costing me money and I am extremely frustrated. I have been a customer for four years and this is the worst support experience I have had.
+The mobile app crashes upon opening the reports tab, resulting in a blank screen and app closure.
 
 Action Taken
 ------------
@@ -19,8 +19,8 @@ No action recorded.
 
 Current Status
 --------------
-Escalated. Priority Critical; customer sentiment very negative.
+The case is escalated to the mobile engineering team, marked as high priority, and the customer sentiment is very negative.
 
 Recommended Next Action
 -----------------------
-Assign to a senior specialist and make contact with the customer within 24 hours.
+Assign a support agent to follow up with the customer and provide an update on the escalation status.

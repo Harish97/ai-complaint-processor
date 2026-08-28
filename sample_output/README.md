@@ -1,14 +1,17 @@
 # Sample Output
 
-A committed snapshot of a real run so the outputs can be inspected without
-running anything. Produced with the offline provider:
+A committed snapshot of a **real run against OpenAI `gpt-4o-mini`**, so the
+outputs can be inspected without running anything or spending anything:
 
 ```bash
-python run.py --provider mock
+python run.py                  # provider openai, model gpt-4o-mini
 ```
 
-The live pipeline writes to `output/` (git-ignored); this folder is a copy of
-one such run, with the log directory removed.
+9 documents, 24 LLM calls, 29,050 tokens, 11.26 s wall clock, 8 succeeded /
+1 failed by design. See `run_manifest.json` for the exact figures.
+
+The same batch also runs offline with `python run.py --provider mock`, which
+produces the same categories and statuses without an API key.
 
 | Path | What it is |
 | --- | --- |

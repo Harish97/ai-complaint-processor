@@ -1,16 +1,12 @@
-Subject: Your technical issue case — Escalated
+Subject: Update on Your Mobile App Issue
 
 Dear Customer,
 
-Thank you for contacting us about technical issue. I am sorry for the inconvenience this has caused, and I appreciate you taking the time to bring it to our attention.
+I understand that you are experiencing a significant issue with our mobile app, specifically that it crashes every time you attempt to open the reports tab after the recent update. This has resulted in a blank screen and the app closing, preventing you from accessing your sales data, which is understandably impacting your business.
 
-So that we are clear on what you reported: “Your mobile app has crashed every single time I try to open the reports tab since the update last Tuesday. I get a blank screen and then it closes. I have reinstalled twice. I run a small business and I cannot access my own sales data. This is costing me money and I am extremely frustrated. I have been a customer for four years and this is the worst support experience I have had.”
+Your case has been escalated to our mobile engineering team for further investigation, as this appears to be a regression issue following the latest release. We have also received similar reports from other users, and our team is actively working to identify a resolution.
 
-Your case is currently open with our support team and no resolution has been recorded yet. We are working on it and will update you as soon as there is progress.
-
-Given the circumstances, your case has been escalated to a senior support specialist, who will follow up with you directly.
-
-The current status of your case is: Escalated. If anything above is not correct, or you have further questions, please reply to this email and we will pick it up straight away.
+At this time, I cannot provide a specific timeline for a fix, but please be assured that your case is a high priority. We will keep you updated as we receive more information.
 
 Kind regards,
 Customer Support Team

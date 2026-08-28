@@ -2,16 +2,16 @@
 
 **Source file:** complaint_002.pdf  
 **Category:** Delivery  
-**Priority:** Critical  
+**Priority:** High  
 **Escalation required:** Yes  
 
 Case Overview
 -------------
-Delivery complaint raised by Rahul Verma regarding Express Delivery — order ORD-77821.
+Customer Rahul Verma has raised a complaint regarding the delayed delivery of order ORD-77821, which was due on 6 March. The order has not been delivered as of 18 March, and the tracking status has not changed for eleven days.
 
 Key Issue
 ---------
-This is the third time I am writing about order ORD-77821. It was promised for delivery on 6 March under your Express guarantee. It is now 18 March and the tracking page has said 'out for dispatch' for eleven days. Nobody from your side has called me back despite two previous tickets. This is completely unacceptable and I want this escalated to a manager immediately.
+Order ORD-77821 has not been delivered despite being promised for 6 March, with no updates provided to the customer.
 
 Action Taken
 ------------
@@ -19,8 +19,8 @@ No action recorded.
 
 Current Status
 --------------
-Escalated. Priority Critical; customer sentiment very negative.
+Open, High priority, escalation required.
 
 Recommended Next Action
 -----------------------
-Assign to a senior specialist and make contact with the customer within 24 hours.
+Escalate the case to a supervisor for immediate attention.

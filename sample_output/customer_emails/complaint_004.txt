@@ -1,14 +1,12 @@
-Subject: Your account access case — Open
+Subject: Access Denied Issue with MyAccount Portal
 
 Dear Daniel Okonkwo,
 
-Thank you for contacting us about MyAccount customer portal. I am sorry for the inconvenience this has caused, and I appreciate you taking the time to bring it to our attention.
+I understand that you are experiencing difficulties logging into your MyAccount customer portal. You are receiving an 'access denied' message after entering your password, and despite attempting to reset your password twice, you have not received the OTP via email. Additionally, your account has been locked due to multiple failed sign-in attempts.
 
-So that we are clear on what you reported: “I cannot log in to my account. Every time I enter my password the page reloads and says 'access denied'. I have tried resetting the password twice and I never receive the OTP on email. I need access because my renewal is due on 30 March.”
+Currently, your case is open and being worked on. We have noted the issues with the password reset emails and the account lockout, and we will investigate this matter further to find a resolution.
 
-Your case is currently open with our support team and no resolution has been recorded yet. We are working on it and will update you as soon as there is progress.
-
-The current status of your case is: Open. If anything above is not correct, or you have further questions, please reply to this email and we will pick it up straight away.
+As we proceed, we will keep you updated on any developments regarding your account access. Thank you for your patience as we work to resolve this issue.
 
 Kind regards,
 Customer Support Team

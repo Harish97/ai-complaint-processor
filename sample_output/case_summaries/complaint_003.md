@@ -7,20 +7,20 @@
 
 Case Overview
 -------------
-Product Defect complaint raised by Ananya Iyer regarding AeroBlend 750W Mixer Grinder.
+Customer Ananya Iyer reported a defect with the AeroBlend 750W Mixer Grinder, which has failed after six weeks of use. The technician confirmed a known issue with the motor winding.
 
 Key Issue
 ---------
-The mixer grinder started making a loud grinding noise and then stopped working entirely after about six weeks of normal household use. There is a burning smell from the motor housing. The unit is still under warranty and I would like a replacement rather than a repair, since this is clearly a manufacturing defect.
+The mixer grinder has a failed motor winding, causing it to stop working and emit a burning smell.
 
 Action Taken
 ------------
-A replacement unit has been approved under warranty and the request is currently being processed by the service centre. Pickup of the faulty unit is scheduled for 24 March.
+A replacement unit has been approved under warranty and is being processed by the service centre.
 
 Current Status
 --------------
-In Progress. Priority Medium; customer sentiment neutral.
+Case is in progress with medium priority; no escalation required.
 
 Recommended Next Action
 -----------------------
-Chase the owning team for completion and update the customer on progress.
+Confirm the pickup schedule for the faulty unit on 24 March.
