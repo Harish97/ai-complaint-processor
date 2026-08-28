@@ -1,0 +1,24 @@
+CUSTOMER COMPLAINT RECORD
+=========================
+
+Reference: CMP-2025-0001
+Date Received: 12 March 2025
+Customer Name: Priya Sharma
+Email: priya.sharma@example.com
+Phone: +91 98765 43210
+Product / Service: Prime Home Broadband — 300 Mbps plan
+
+Complaint Description:
+I was billed twice for the month of February. My account shows two charges of Rs. 1,499 taken on 3 February and 5 February. I only have one active connection and one active plan. I have attached copies of both invoices and my bank statement showing the duplicate debit.
+
+Issue Details:
+The duplicate charge was confirmed by the billing team on 8 March. It appears to have been caused by a failed auto-payment that was then retried manually while the original transaction was still pending.
+
+Resolution Provided:
+A refund of Rs. 1,499 was approved on 10 March and processed to the original payment method. The customer was informed that it will reflect within 5 to 7 working days.
+
+Escalation:
+Not required. Resolved at first line.
+
+Supporting Information:
+Invoice INV-20250203, Invoice INV-20250205, bank statement extract.

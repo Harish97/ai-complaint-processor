@@ -1,0 +1,18 @@
+# --- Core ---
+pydantic>=2.7,<3            # structured output schemas + validation
+pydantic-settings>=2.2      # environment-driven configuration
+python-dotenv>=1.0          # .env loading
+tenacity>=8.2               # retry/backoff for provider calls
+rich>=13.7                  # console tables, progress bar, log formatting
+
+# --- Document loaders ---
+pypdf>=4.2                  # .pdf text extraction
+python-docx>=1.1            # .docx text extraction (incl. tables)
+
+# --- LLM providers (install what you need; the app works with either) ---
+openai>=1.40                # --provider openai
+google-genai>=1.0           # --provider gemini
+
+# --- Development ---
+pytest>=8.0                 # test suite
+reportlab>=4.1              # only used by scripts/generate_sample_data.py

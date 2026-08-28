@@ -1,0 +1,39 @@
+# --- Secrets: never commit real API keys ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Generated output ---
+# `output/` is produced by running the pipeline. A committed sample run lives in
+# `sample_output/` instead, so the repository always shows what a run looks like.
+output/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Tooling ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+~$*

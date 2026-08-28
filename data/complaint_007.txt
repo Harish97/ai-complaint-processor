@@ -1,0 +1,20 @@
+COMPLAINT — WEB FORM SUBMISSION
+===============================
+
+Reference: CMP-2025-0007
+Date Received: 27 March 2025
+
+Complaint Description:
+Your mobile app has crashed every single time I try to open the reports tab since the update last Tuesday. I get a blank screen and then it closes. I have reinstalled twice. I run a small business and I cannot access my own sales data. This is costing me money and I am extremely frustrated. I have been a customer for four years and this is the worst support experience I have had.
+
+Issue Details:
+Reproducible crash on the reports screen following release 4.2.0. Several similar reports received the same week, suggesting a regression rather than a device-specific fault. Engineering has been notified but no fix is available yet.
+
+Resolution Provided:
+(none recorded)
+
+Escalation:
+Escalated to the mobile engineering team as a possible release regression. Customer is asking for a callback from a manager.
+
+Supporting Information:
+Customer attached a crash log file and two screenshots. Note: the web form was submitted without contact details.

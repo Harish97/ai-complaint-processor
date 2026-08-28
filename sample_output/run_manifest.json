@@ -1,0 +1,16 @@
+{
+  "provider": "mock",
+  "model": "offline-rule-based",
+  "started_at": "2026-08-26T03:45:14.705229+00:00",
+  "finished_at": "2026-08-26T03:45:14.931223+00:00",
+  "wall_clock_seconds": 0.226,
+  "task_mode": "parallel",
+  "batch_workers": 4,
+  "documents_processed": 9,
+  "succeeded": 8,
+  "partial": 0,
+  "failed": 1,
+  "skipped_files": [
+    "edge_case_unsupported_format.xlsx"
+  ]
+}

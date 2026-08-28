@@ -1,0 +1,24 @@
+SUPPORT TICKET
+==============
+
+Reference: CMP-2025-0004
+Date Received: 22 March 2025
+Customer Name: Daniel Okonkwo
+Email: d.okonkwo@example.org
+Phone: 
+Product / Service: MyAccount customer portal
+
+Complaint Description:
+I cannot log in to my account. Every time I enter my password the page reloads and says 'access denied'. I have tried resetting the password twice and I never receive the OTP on email. I need access because my renewal is due on 30 March.
+
+Issue Details:
+Password reset emails appear to be failing for this account. Account was locked automatically after five failed sign-in attempts. No engineering investigation has been opened yet.
+
+Resolution Provided:
+(none recorded)
+
+Escalation:
+Not requested by the customer.
+
+Supporting Information:
+None provided.
