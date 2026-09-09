@@ -150,7 +150,7 @@ matrix: **[`docs/architecture.md`](docs/architecture.md)**.
 
 Also in `docs/`: the **[presentation](docs/AI-Complaint-Processor-Final-Evaluation.pptx)**
 (15 slides, with speaker notes), a **[demo script](docs/demo-script.md)**, and a
-**[78-second screencast](docs/complaint-processor-demo.mp4)** of a real
+**[89-second screencast](docs/complaint-processor-demo.mp4)** of a real
 `gpt-4o-mini` run, captioned with each assessment requirement as it is
 demonstrated, plus a **[narration script](docs/narration-script.md)** timed to it.
 
