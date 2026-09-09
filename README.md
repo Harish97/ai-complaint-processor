@@ -9,6 +9,62 @@ Project 1: AI-Powered Document Processing & Business Workflow.**
 
 ---
 
+## ▶ For evaluators — running this takes one command and no API key
+
+This is a **local deployment**: a self-contained Python application that runs on
+your machine. There is no server to start, no cloud account, and nothing to
+configure before the first run.
+
+**macOS / Linux**
+
+```bash
+./setup_and_run.sh
+```
+
+**Windows**
+
+```
+setup_and_run.bat
+```
+
+That creates a virtual environment, installs the dependencies (~15 s), processes
+all ten sample documents in `data/`, writes results to `output/`, and runs the
+79-test suite. **No API key is required** — it uses a built-in offline provider.
+
+<details>
+<summary>Prefer to run the steps yourself?</summary>
+
+```bash
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python run.py --provider mock
+pytest
+```
+</details>
+
+**Two things that look like errors but are intentional:**
+
+- The run reports **1 failed** document and exits with code **1**. `data/` contains
+  two deliberate edge-case files — an empty `.txt` and an unsupported `.xlsx` — to
+  demonstrate that one bad file neither crashes the batch nor disappears from the
+  report. Eight real documents succeed.
+- Running plain `python run.py` **without** a `.env` file stops with a message
+  about `OPENAI_API_KEY`. That is the intended fail-fast behaviour; use
+  `--provider mock`, or add a key as described in [Setup](#setup).
+
+**To see it against a real model** (optional — costs about one US cent):
+
+```bash
+cp .env.example .env        # add your OpenAI or Gemini key
+python run.py
+```
+
+A committed run against OpenAI `gpt-4o-mini` is already in
+[`sample_output/`](sample_output/), so the real-model output can be inspected
+without spending anything.
+
+---
+
 ## Problem statement
 
 A customer support team receives complaint records as a mix of `.txt`, `.pdf` and
