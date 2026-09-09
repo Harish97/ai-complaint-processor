@@ -149,7 +149,10 @@ Full diagrams (Mermaid), layer table, data model, concurrency model and failure
 matrix: **[`docs/architecture.md`](docs/architecture.md)**.
 
 Also in `docs/`: the **[presentation](docs/AI-Complaint-Processor-Final-Evaluation.pptx)**
-(15 slides, with speaker notes) and a **[demo script](docs/demo-script.md)**.
+(15 slides, with speaker notes), a **[demo script](docs/demo-script.md)**, and a
+**[45-second screencast](docs/complaint-processor-demo.mp4)** of a real
+`gpt-4o-mini` run — batch execution, the structured output, the generated email
+and the test suite.
 
 ### Why the workflow is split into three tasks
 
